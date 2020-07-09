@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is Directory for node and npm",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKANDAPANDITHMG/bootstrap.git"
+  },
+  "author": "skanda pandith M G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKANDAPANDITHMG/bootstrap/issues"
+  },
+  "homepage": "https://github.com/SKANDAPANDITHMG/bootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
